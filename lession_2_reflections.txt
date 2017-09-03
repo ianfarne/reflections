@@ -12,13 +12,32 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    The staging area can allow one to have one logical change from one file to
+    many files. This allows for higher flexibility when writing code and using
+    version control.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Branches offer the ability to try new things without losing the working
+    code.
+
 How do the diagrams help you visualize the branch structure?
+
+    The diagrams allow one to see where each commit is in relation to one
+    another.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    Merging two branches combines the most recent updates in both branches to
+    the master commit. The graphical representation allows the user to easily
+    see which commit has which parent, child, branch, and merge.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    Pro of Auto: Faster, takes care of repetitive work.
+    Con of Auto: Limited.
+    Pro of Man: Allows greater control in conflict situations.
+    Con of Man: Time consuming.
